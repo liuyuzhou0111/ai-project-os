@@ -1,0 +1,23 @@
+{
+  "version": "v2.0",
+  "mode": "AUTOMATED_EVENT_DRIVEN",
+  "projects": {
+    "PixelBead": {
+      "path": "projects/PixelBead",
+      "log_type": "daily_event_stream"
+    },
+    "AI-Skill": {
+      "path": "projects/AI-Skill",
+      "log_type": "daily_event_stream"
+    },
+    "Homestay": {
+      "path": "projects/Homestay",
+      "log_type": "daily_event_stream"
+    },
+    "Codex": {
+      "path": "projects/Codex",
+      "log_type": "daily_event_stream"
+    }
+  },
+  "event_stream": "/events/event_log.jsonl"
+}
